@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-VariableItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>contact</title>
+		<script type="module" crossorigin="" src="./js/contact.min.js?v=1775583441561"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1775583441561">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1775583441561">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1775583441561">
+		<link rel="stylesheet" crossorigin="" href="./css/contact.min.css?v=1775583441561">
+		<link rel="stylesheet" crossorigin="" href="./css/borderblock.min.css?v=1775583441561">
+		<link rel="stylesheet" crossorigin="" href="./css/label.min.css?v=1775583441561">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header-scroll="" data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__logo">
+							<a class="header__link-logo" href="index.html">
+								<img src="./assets/img/logo.svg" alt="Logo">
+							</a>
+						</div>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="work.html" class="menu__link">Work</a>
+									</li>
+									<li class="menu__item">
+										<a href="about.html" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="blog.html" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="price.html" class="menu__link">Pages</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a data-fls-button="" href="contact.html" class="header__button button button--lite">Let’s talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-contact="" class="contact">
+					<section class="page__contacts contacts">
+						<div class="contacts__container">
+							<div class="contacts__body">
+								<div class="contacts__media">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/contact/arik-600.webp" type="image/webp">
+										<img alt="Arik" src="./assets/img/contact/arik.webp">
+									</picture>
+								</div>
+								<div class="contacts__content content-contacts">
+									<div data-fls-borderblock="" class="content-contacts__body">
+										<div data-fls-label="" class="content-contacts__label">Contact</div>
+										<h1 class="content-contacts__title">Let’s get in touch.</h1>
+										<form data-fls-form="ajax" data-fls-form-popup="popup" action="php/telegram/index.php" method="POST" class="content-contacts__form form-contacts">
+											<div>
+												<input data-fls-label="" data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="text" name="form[name]" data-fls-form-errtext="Error-name" placeholder="Name" class="form-contacts__input">
+											</div>
+											<div>
+												<input data-fls-label="" data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="email" name="form[email]" data-fls-form-errtext="Error-email" placeholder="Email" class="form-contacts__input">
+											</div>
+											<div>
+												<textarea data-fls-label="" data-fls-input="" data-fls-input-autoheight="" autocomplete="off" name="form[message]" placeholder="Message" data-fls-form-errtext="Помилка" class="form-contacts__input"></textarea>
+											</div>
+											<button type="submit" class="form-contacts__button button button--lite">Send Message</button>
+										</form>
+									</div>
+									<div class="content-contacts__social social-contact">
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-inst">Instagram</a>
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-tw">Twitter</a>
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-fb">Facebook</a>
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-behance">Behance</a>
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-dribble">Dribbble</a>
+										<a href="#" data-fls-button="" class="social-contact__item button --icon-pinterest">Pinterest</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__top">
+						<div class="footer__aside aside-footer">
+							<div class="aside-footer__logo">
+								<img src="./assets/img/logo.svg" alt="Logo">
+							</div>
+							<div data-fls-social="" class="aside-footer__social social social--vertical">
+								<a href="#" target="_blank" class="social__item --icon-inst">Instagram</a>
+								<a href="#" target="_blank" class="social__item --icon-tw">Twitter</a>
+								<a href="#" target="_blank" class="social__item --icon-dribble">Dribbble</a>
+								<a href="#" target="_blank" class="social__item --icon-behance">Behance</a>
+							</div>
+						</div>
+						<div class="footer__columns">
+							<div data-fls-spollers="767.98" class="footer__column column-footer">
+								<details>
+									<summary>
+										<h3 class="column-footer__title">Pages</h3>
+									</summary>
+									<div class="column-footer__list">
+										<div class="column-footer__item">
+											<a href="index.html" class="column-footer__link">Home</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="services.html" class="column-footer__link">Services</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="about.html" class="column-footer__link">About</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="contact.html" class="column-footer__link">Contact</a>
+										</div>
+									</div>
+								</details>
+								<div data-fls-dynamic=".footer__top, 767.98, 2" class="column-footer__link">
+									<a href="#" class="button button--lite button--icon-arrow button--icon-arrow-lu">More
+							Templates</a>
+								</div>
+							</div>
+							<div data-fls-spollers="767.98" class="footer__column column-footer">
+								<details>
+									<summary>
+										<h3 class="column-footer__title">CMS</h3>
+									</summary>
+									<div class="column-footer__list">
+										<div class="column-footer__item">
+											<a href="work.html" class="column-footer__link">Work</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="space.html" class="column-footer__link">Work Single</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="blog.html" class="column-footer__link">Blog</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="blogsingle.html" class="column-footer__link">Blog Post</a>
+										</div>
+									</div>
+								</details>
+							</div>
+							<div data-fls-spollers="767.98" class="footer__column column-footer">
+								<details>
+									<summary>
+										<h3 class="column-footer__title">Utility Pages</h3>
+									</summary>
+									<div class="column-footer__list">
+										<div class="column-footer__item">
+											<a href="#" class="column-footer__link">404 Error Page</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="#" class="column-footer__link">Password Protected</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="#" class="column-footer__link">Styleguide</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="#" class="column-footer__link">Licensing</a>
+										</div>
+										<div class="column-footer__item">
+											<a href="#" class="column-footer__link">Changelog</a>
+										</div>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copyright">© 2022 Made by Pawel Gola. Powered by Framer..</div>
+						<button data-fls-scrollto="main" class="footer__up footer__up--icon-arrow">To Top</button>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close">
+						<svg width="23" height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup__text">Message</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
